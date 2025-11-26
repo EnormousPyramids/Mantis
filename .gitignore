@@ -214,3 +214,4 @@ storage/
 # github tokens and env files
 github
 github.pub
+setup_miner.sh
