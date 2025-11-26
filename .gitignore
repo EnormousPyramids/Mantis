@@ -210,3 +210,7 @@ __marimo__/
 logs/
 models/
 storage/
+
+# github tokens and env files
+github
+github.pub
