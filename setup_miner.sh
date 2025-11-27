@@ -34,9 +34,9 @@ if [ ! -f ".env" ]; then
     echo "📝 Creating .env template..."
     cat > .env << EOF
 # Cloudflare R2 Configuration
-R2_ACCOUNT_ID=your account id here
-R2_WRITE_ACCESS_KEY_ID=your access key id here
-R2_WRITE_SECRET_ACCESS_KEY=your secret access key here
+R2_ACCOUNT_ID=e82a89e4f742154ce30275878a7bf172
+R2_WRITE_ACCESS_KEY_ID=20c42cb0cbebb720cc09c15beed6e1ef
+R2_WRITE_SECRET_ACCESS_KEY=2e694dfd99ede684c29319cca8603a2184372bba6123571e26a634aae1655827
 
 # Optional: Custom settings
 # MINING_INTERVAL=60

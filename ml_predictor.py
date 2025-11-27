@@ -81,6 +81,7 @@ class EnsemblePredictor:
                 logger.warning(f"Not enough valid samples after cleaning: {len(X)}")
                 return False
             
+
             # Scale features
             X_scaled = self.scaler.fit_transform(X)
             

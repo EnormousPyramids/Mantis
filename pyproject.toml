@@ -25,4 +25,6 @@ dependencies = [
     "seaborn",
     "cloudflare>=0.7.0",
     "aiohttp",
+    "xgboost",
+    "tqdm",
 ]

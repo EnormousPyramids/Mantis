@@ -224,7 +224,6 @@ class MinerMonitor:
     def get_current_metrics(self) -> Dict:
         """Get current metrics snapshot"""
         with self.lock:
-            self.logger.info(f"=-=-=-=-=-=-=-{self}=-=-=-=-=-=-=")
             # Update uptime
             self.metrics.uptime_seconds = time.time() - self.start_time
             

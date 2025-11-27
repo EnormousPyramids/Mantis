@@ -12,3 +12,11 @@ matplotlib
 pandas
 seaborn
 joblib
+aiobotocore
+shap
+yfinance
+pandas-datareader
+tqdm
+xgboost
+cryptography
+# pm2 (installed globally via npm)
