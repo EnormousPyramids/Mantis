@@ -215,3 +215,4 @@ storage/
 github
 github.pub
 setup_miner.sh
+start_miner.sh
